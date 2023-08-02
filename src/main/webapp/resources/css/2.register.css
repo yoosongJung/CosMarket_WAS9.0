@@ -66,13 +66,21 @@ input[type=submit] {
   font-weight: 700;
   font-size: large;
 }
-#seller input[type=submit] {
+.buyerRegister, .sellerRegister {
+  height: 50px;
+  margin-left: 10%;
+  background-color: #fff;
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: 700;
+  font-size: large;
+} 
+#seller input[type=submit], .sellerRegister {
   border-color: rgb(194, 90, 194);  
 }
-#buyer input[type=submit] {
+#buyer input[type=submit], .buyerRegister {
   border-color: skyblue;
 }
-input[type=submit]:hover {
+input[type=submit]:hover, .buyerRegister:hover, .sellerRegister:hover {
   border-width: thick;
 }
 @media (max-width: 767px) {
